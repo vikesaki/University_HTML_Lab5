@@ -1,0 +1,29 @@
+extends template
+
+block menu
+    +createMenu(0)
+
+block content
+    .main-block
+        .content
+            .text1
+                p.
+                    CSS (англ. Cascading Style Sheets — каскадные таблицы стилей)
+                    — формальный язык описания внешнего вида документа, написанного
+                    с использованием языка разметки.
+            .text2
+                p.
+                    Основным понятием CSS является стиль – т. е. набор правил оформления
+                    и форматирования, который может быть  применен к различным элементам
+                    страницы. Для присвоения какому-либо элементу определенных
+                    характеристик необходимо  один раз описать этот элемент и
+                    определить это описание как стиль, а в дальнейшем просто указывать,
+                    что элемент получить свойства выбранного стиля.
+
+            .image
+                img(src='pict/css1.jpg')
+
+        .video
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZhjfsY49JhY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
